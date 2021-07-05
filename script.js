@@ -1,5 +1,5 @@
 let timeEl = document.querySelector("p.time");
-let secondsLeft = 75;
+let secondsLeft = 60;
 let scoreEl = document.querySelector("#score");
 
 
@@ -57,7 +57,7 @@ const questions = [
     },
     {
     
-        question: "The condition in an if / else statement is enclosed within ____.",
+        question: "The condition in an if or else statement is enclosed within ____.",
         answers: ["1. quotes", "2. curly brackets", "3. parentheses", "4. square brackets"],
         correctAnswer: "1"
     },
